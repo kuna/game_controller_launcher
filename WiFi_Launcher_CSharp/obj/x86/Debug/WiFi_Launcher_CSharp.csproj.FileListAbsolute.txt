@@ -1,0 +1,9 @@
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\bin\Debug\WiFi_Launcher_CSharp.exe
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\bin\Debug\WiFi_Launcher_CSharp.pdb
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\WiFi_Launcher_CSharp.Form1.resources
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\WiFi_Launcher_CSharp.Properties.Resources.resources
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\WiFi_Launcher_CSharp.exe
+c:\users\kuna\documents\visual studio 2010\Projects\WiFi_Launcher_CSharp\WiFi_Launcher_CSharp\obj\x86\Debug\WiFi_Launcher_CSharp.pdb
