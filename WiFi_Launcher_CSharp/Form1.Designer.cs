@@ -28,39 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnStart = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lb = new System.Windows.Forms.ListBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // btnStart
-            // 
-            this.btnStart.Location = new System.Drawing.Point(12, 12);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(110, 35);
-            this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "StartServer";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(12, 53);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(110, 35);
-            this.btnClose.TabIndex = 0;
-            this.btnClose.Text = "EndServer";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lb
             // 
             this.lb.FormattingEnabled = true;
             this.lb.ItemHeight = 12;
-            this.lb.Location = new System.Drawing.Point(128, 12);
+            this.lb.Location = new System.Drawing.Point(12, 12);
             this.lb.Name = "lb";
-            this.lb.Size = new System.Drawing.Size(176, 76);
+            this.lb.Size = new System.Drawing.Size(292, 136);
             this.lb.TabIndex = 1;
             // 
             // comboBox1
@@ -70,8 +49,9 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Normal",
             "Racing",
-            "FPS"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 94);
+            "FPS",
+            "Custom"});
+            this.comboBox1.Location = new System.Drawing.Point(12, 162);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(292, 20);
             this.comboBox1.TabIndex = 2;
@@ -81,22 +61,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 124);
+            this.ClientSize = new System.Drawing.Size(316, 194);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lb);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnStart);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Text = "PhoneController Status";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ListBox lb;
         private System.Windows.Forms.ComboBox comboBox1;
     }
